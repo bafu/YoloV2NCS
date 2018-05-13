@@ -12,7 +12,7 @@ echo $yolocfg
 echo $yoloweight
 
 echo "convert yolo to caffe"
-python ../python/create_yolo_prototxt.py $yolocfg $yolocfgcaffe
-python ../python/create_yolo_caffemodel.py -m $yolocfgcaffe -w $yoloweight -o $yoloweightcaffe
+python3 ../python/create_yolo_prototxt.py $yolocfg $yolocfgcaffe
+python3 ../python/create_yolo_caffemodel.py -m $yolocfgcaffe -w $yoloweight -o $yoloweightcaffe
 
 echo "done"

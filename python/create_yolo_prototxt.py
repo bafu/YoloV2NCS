@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from ConfigParser import ConfigParser
+from configparser import ConfigParser
 from collections import OrderedDict
 import argparse
 import logging
